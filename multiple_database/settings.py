@@ -83,7 +83,10 @@ DATABASES = {
     'auth_db': config('DATABASE_URL_USERS', cast=parse_database),
 }
 
-DATABASE_ROUTERS = ['multiple_database.routers.db_routers.AuthRouter']
+DATABASE_ROUTERS = [
+    'multiple_database.routers.db_routers.AuthRouter',
+    'multiple_database.routers.db_routers.TarefaRouter',
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
