@@ -22,7 +22,7 @@ cachecontrol[filecache]==0.12.11
     # via
     #   -r requirements.txt
     #   pip-audit
-certifi==2022.6.15
+certifi==2022.12.7
     # via
     #   -r requirements.txt
     #   requests
